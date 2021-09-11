@@ -43,6 +43,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -59,6 +67,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -288,7 +304,7 @@
             "Target" = "8:_92EE09B746BC48238CC659EE2C1FB93E"
             "Folder" = "8:_5944267F00CA4719B3029E3929D48FC3"
             "WorkingFolder" = "8:_DDDC2A63B15F49F9A68F51A1E315D394"
-            "Icon" = "8:"
+            "Icon" = "8:_2855BA4FAC7E4542AF775C92B9346FAF"
             "Feature" = "8:"
             }
         }
@@ -692,7 +708,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_92EE09B746BC48238CC659EE2C1FB93E"
             {
-            "SourcePath" = "8:..\\Release\\piano-server.exe"
+            "SourcePath" = "8:..\\piano-server\\x64\\Debug\\piano-server.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_DDDC2A63B15F49F9A68F51A1E315D394"
